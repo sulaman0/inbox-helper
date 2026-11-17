@@ -1,0 +1,242 @@
+[
+  {
+    "id": "msg_001",
+    "from_name": "Priya Nair",
+    "from_email": "priya.nair@gmail.com",
+    "received_at": "2024-11-10T09:14:00Z",
+    "subject": "Following up on my application",
+    "body": "Hi,\n\nI submitted my application for the Senior Backend Engineer role about two weeks ago and wanted to follow up to see if there are any updates on the status. I remain very interested in this opportunity and would love to hear back whenever you have a chance.\n\nThank you for your time."
+  },
+  {
+    "id": "msg_002",
+    "from_name": "James Okoye",
+    "from_email": "james.okoye@outlook.com",
+    "received_at": "2024-11-10T10:32:00Z",
+    "subject": "Interview Confirmation Request",
+    "body": "Hello,\n\nI received your email yesterday about scheduling an interview for the Product Manager role. I'm available on Tuesday November 19th between 10am and 1pm, or Thursday November 21st any time after 2pm.\n\nPlease let me know which works best for the team. Looking forward to it!"
+  },
+  {
+    "id": "msg_003",
+    "from_name": "Sofia Reyes",
+    "from_email": "sofia.reyes@protonmail.com",
+    "received_at": "2024-11-10T11:05:00Z",
+    "subject": "Question about compensation package",
+    "body": "Dear Hiring Team,\n\nThank you for moving me forward in the process! I wanted to ask about the compensation range for the Data Scientist role. Specifically, I'm curious about the base salary, any equity or stock options, and the annual bonus structure.\n\nI want to make sure this aligns with my expectations before we continue. Could you share some details?\n\nBest,\nSofia"
+  },
+  {
+    "id": "msg_004",
+    "from_name": "Derek Chen",
+    "from_email": "d.chen.dev@gmail.com",
+    "received_at": "2024-11-10T11:48:00Z",
+    "subject": "Submitting additional documents",
+    "body": "Hi,\n\nAs requested, I'm submitting my updated resume and professional references. I've attached:\n- Updated CV (derek_chen_cv_2024.pdf)\n- 3 professional references with contact info\n- My portfolio link: https://derekchen.dev\n\nPlease let me know if you need anything else. Happy to provide further documentation.\n\nThanks,\nDerek"
+  },
+  {
+    "id": "msg_005",
+    "from_name": "Amara Diallo",
+    "from_email": "amara.diallo@yahoo.com",
+    "received_at": "2024-11-10T13:20:00Z",
+    "subject": "Withdrawing my application",
+    "body": "Hello,\n\nI hope this message finds you well. I'm writing to let you know that I need to withdraw my application for the UX Designer role. I have accepted another offer and will be starting a new position soon.\n\nThank you so much for the opportunity and your time throughout the process. I truly appreciated it.\n\nKind regards,\nAmara"
+  },
+  {
+    "id": "msg_006",
+    "from_name": "Liam Fitzpatrick",
+    "from_email": "liam.fitzp@hotmail.com",
+    "received_at": "2024-11-10T14:02:00Z",
+    "subject": "About the Engineering Manager role",
+    "body": "Hi there,\n\nI saw the Engineering Manager position and have a few questions before I apply. Could you tell me more about:\n1. The size of the team I'd be managing?\n2. The tech stack the team primarily uses?\n3. Whether this is an IC/Manager hybrid role or purely management?\n\nThis information would really help me decide if it's the right fit. Thank you!"
+  },
+  {
+    "id": "msg_007",
+    "from_name": "Yuki Tanaka",
+    "from_email": "yuki.tanaka.career@gmail.com",
+    "received_at": "2024-11-10T14:55:00Z",
+    "subject": "Visa sponsorship question",
+    "body": "Dear Recruiter,\n\nI am currently on an F-1 OPT visa and will need H-1B sponsorship by April 2025. Before moving forward with the interview process, I wanted to confirm whether your company sponsors H-1B visas for the Machine Learning Engineer role.\n\nIf sponsorship is available, I'm very excited to continue. Please let me know.\n\nThank you,\nYuki"
+  },
+  {
+    "id": "msg_008",
+    "from_name": "Marcus Webb",
+    "from_email": "marcus.webb@icloud.com",
+    "received_at": "2024-11-10T15:30:00Z",
+    "subject": "Any update on my application status?",
+    "body": "Hi,\n\nI'm just checking in again. I interviewed with the team three weeks ago for the Sales Lead role and haven't heard anything since. I've sent two emails that weren't replied to.\n\nI'm still very interested, but the lack of communication is making it hard to plan. Can you give me any update at all?\n\nThanks,\nMarcus"
+  },
+  {
+    "id": "msg_009",
+    "from_name": "Elena Vasquez",
+    "from_email": "elena.v@gmail.com",
+    "received_at": "2024-11-11T08:10:00Z",
+    "subject": "Need to reschedule tomorrow's interview",
+    "body": "Hello,\n\nI'm so sorry for the late notice, but a family emergency has come up and I'm unable to attend my interview tomorrow morning (November 12th at 9 AM). Would it be possible to reschedule for later this week or early next week?\n\nI sincerely apologize for the inconvenience and hope this can be accommodated.\n\nBest,\nElena"
+  },
+  {
+    "id": "msg_010",
+    "from_name": "Kwame Asante",
+    "from_email": "kwame.asante@gmail.com",
+    "received_at": "2024-11-11T09:00:00Z",
+    "subject": "Background check authorization form",
+    "body": "Hi,\n\nI received the offer letter and have a question about the background check authorization form. The form asks about international criminal records but doesn't specify which countries are checked.\n\nCould you clarify what the background check covers, and if I need to obtain any documentation from my home country (Ghana)?\n\nThanks,\nKwame"
+  },
+  {
+    "id": "msg_011",
+    "from_name": "Isabelle Moreau",
+    "from_email": "isabelle.moreau@live.fr",
+    "received_at": "2024-11-11T10:15:00Z",
+    "subject": "Relocation package question",
+    "body": "Dear Team,\n\nI am very excited about the offer for the Senior Product Designer position in San Francisco! I'm currently based in Paris and would need to relocate.\n\nCould you tell me more about the relocation package? Specifically, I'd like to know if it covers international moving costs, temporary housing, and any visa/work permit assistance.\n\nMerci beaucoup,\nIsabelle"
+  },
+  {
+    "id": "msg_012",
+    "from_name": "Tyler Brooks",
+    "from_email": "tyler.brooks.eng@gmail.com",
+    "received_at": "2024-11-11T11:40:00Z",
+    "subject": "Completely unacceptable treatment",
+    "body": "I cannot believe how I have been treated throughout this process. I took TWO days off work to come in for interviews, prepared extensively for the technical assessment, and then received absolutely no feedback for over a month.\n\nI finally got an automated rejection email with ZERO explanation. This is disrespectful and unprofessional. I have been in the industry for 15 years and have never encountered this level of disregard.\n\nI expect a proper explanation and apology."
+  },
+  {
+    "id": "msg_013",
+    "from_name": "Nadia Kowalski",
+    "from_email": "nadia.k.work@gmail.com",
+    "received_at": "2024-11-11T13:00:00Z",
+    "subject": "Offer letter received - compensation question",
+    "body": "Hello,\n\nThank you for the offer! I've reviewed the offer letter and have a few questions:\n\n1. The base salary offered is $95,000. Is there any flexibility given my 7 years of experience?\n2. The equity vesting schedule mentions a 4-year cliff — is a 1-year cliff possible?\n3. When does the signing bonus need to be repaid if I leave within 12 months?\n\nI'm genuinely excited about this role and hope we can find an agreement.\n\nBest,\nNadia"
+  },
+  {
+    "id": "msg_014",
+    "from_name": "Raj Patel",
+    "from_email": "raj.patel.dev@gmail.com",
+    "received_at": "2024-11-11T14:20:00Z",
+    "subject": "Quick status check",
+    "body": "Hi,\n\nHope you're doing well! I just wanted to do a quick check on where things stand with my application for the Staff Engineer position. I had my final round interview last Thursday and am eagerly awaiting feedback.\n\nThanks!"
+  },
+  {
+    "id": "msg_015",
+    "from_name": "Carmen López",
+    "from_email": "carmen.lopez.hr@gmail.com",
+    "received_at": "2024-11-11T15:05:00Z",
+    "subject": "Transcript and certifications",
+    "body": "Hi,\n\nI'm following up on the HR Coordinator position. I'd like to submit my educational transcripts and professional certifications (SHRM-CP) as part of my application.\n\nShould I email them directly or upload through the portal? Also, do you need originals or copies?\n\nThank you,\nCarmen"
+  },
+  {
+    "id": "msg_016",
+    "from_name": "Owen Miller",
+    "from_email": "owenmiller_42@gmail.com",
+    "received_at": "2024-11-12T08:45:00Z",
+    "subject": "Interview",
+    "body": "Hi can you tell me when my interview is? I think it was scheduled but I didn't get a calendar invite or anything. Thanks"
+  },
+  {
+    "id": "msg_017",
+    "from_name": "Fatima Al-Hassan",
+    "from_email": "fatima.alhassan@gmail.com",
+    "received_at": "2024-11-12T09:30:00Z",
+    "subject": "Work permit - important question",
+    "body": "Dear Hiring Manager,\n\nI am a candidate for the Finance Analyst role. I am a Canadian citizen and would need a TN visa to work in the United States. This type of work permit is typically straightforward for accounting/finance professionals.\n\nIs your company familiar with TN visa sponsorship? I would need this confirmed before accepting any offer.\n\nThank you,\nFatima"
+  },
+  {
+    "id": "msg_018",
+    "from_name": "Ethan Price",
+    "from_email": "ethan.price.writer@gmail.com",
+    "received_at": "2024-11-12T10:10:00Z",
+    "subject": "Portfolio and writing samples",
+    "body": "Hello,\n\nPlease find my portfolio and writing samples attached for the Content Strategist role.\n\nI've included:\n- 3 long-form articles\n- A content strategy deck\n- SEO analysis samples\n\nI'm attaching them as a zip file. Please let me know if you can't open the files and I'll resend in a different format.\n\nBest,\nEthan"
+  },
+  {
+    "id": "msg_019",
+    "from_name": "Zoe Kim",
+    "from_email": "zoe.kim.design@gmail.com",
+    "received_at": "2024-11-12T11:25:00Z",
+    "subject": "Withdrawing — accepted competing offer",
+    "body": "Hi,\n\nI hope this email finds you well. After careful consideration, I've decided to withdraw my application for the UX Researcher position. I've received and accepted an offer from another company that is better aligned with my current career goals.\n\nI really enjoyed the conversations with your team and think you're building something great. I hope we have the chance to connect in the future.\n\nWarm regards,\nZoe"
+  },
+  {
+    "id": "msg_020",
+    "from_name": "André Lefebvre",
+    "from_email": "andre.lefebvre@gmail.com",
+    "received_at": "2024-11-12T12:00:00Z",
+    "subject": "Bonjour - question about the role",
+    "body": "Hello, je m'appelle André and I wanted to ask about the DevOps Engineer role. What is the typical day-to-day like? Is it mostly infrastructure maintenance or is there greenfield work? Also, does the team use Kubernetes and Terraform, or is the stack different?\n\nMerci!"
+  },
+  {
+    "id": "msg_021",
+    "from_name": "Priscilla Huang",
+    "from_email": "priscilla.huang@gmail.com",
+    "received_at": "2024-11-12T13:15:00Z",
+    "subject": "Still waiting — application from 5 weeks ago",
+    "body": "I applied five weeks ago and have heard absolutely nothing. No confirmation email, no rejection, nothing. This is incredibly frustrating. At the very minimum, acknowledging that you received my application would be a basic courtesy. Very disappointed in the process."
+  },
+  {
+    "id": "msg_022",
+    "from_name": "Samuel Grant",
+    "from_email": "samuel.grant.ops@gmail.com",
+    "received_at": "2024-11-12T14:00:00Z",
+    "subject": "Reference letter and ID documents",
+    "body": "Dear Recruiter,\n\nI've been asked to submit a reference letter and two forms of government-issued ID for the background check. I wanted to confirm:\n\n1. Can I send these by email or do you need them through a secure portal?\n2. Is a passport and driver's license sufficient?\n3. How long does the background check typically take?\n\nThank you in advance.\n\nSamuel"
+  },
+  {
+    "id": "msg_023",
+    "from_name": "Nina Johansson",
+    "from_email": "nina.johansson.se@gmail.com",
+    "received_at": "2024-11-12T15:00:00Z",
+    "subject": "Relocation + visa question (Stockholm to Austin)",
+    "body": "Hi,\n\nI'm thrilled about the opportunity to join your team! I'm currently in Stockholm and would need to relocate to Austin, TX.\n\nTwo questions:\n1. Does the company provide an E-3 visa sponsorship for Australian citizens? (I hold dual citizenship AU/SE)\n2. Is there a relocation budget for international moves, and does it cover temporary accommodation?\n\nThank you so much!\nNina"
+  },
+  {
+    "id": "msg_024",
+    "from_name": "Brandon Torres",
+    "from_email": "brandon.torres.mktg@gmail.com",
+    "received_at": "2024-11-13T08:30:00Z",
+    "subject": "What happened with my application??",
+    "body": "I have no idea what's going on. Last week I was told I would receive a decision by Friday. Friday came and went, nobody called, nobody emailed. Now it's Wednesday. I'm on the verge of pulling my application because this process has been an absolute mess. Please respond ASAP."
+  },
+  {
+    "id": "msg_025",
+    "from_name": "Mei Lin",
+    "from_email": "meilin.career@gmail.com",
+    "received_at": "2024-11-13T09:15:00Z",
+    "subject": "Interview prep questions",
+    "body": "Hello,\n\nI have my technical interview scheduled for next week and I'm wondering:\n1. Will the interview be on Zoom or in-person?\n2. How many interviewers should I expect?\n3. Is there a specific coding language I should prepare for the live coding portion?\n\nThank you for any guidance!"
+  },
+  {
+    "id": "msg_026",
+    "from_name": "Oluwaseun Adesanya",
+    "from_email": "oluwaseun.ade@gmail.com",
+    "received_at": "2024-11-13T10:00:00Z",
+    "subject": "Referral question — friend referred me",
+    "body": "Hi,\n\nMy friend Tobi Adeyemi referred me for the Cloud Architect role. He mentioned there's a referral program. Could you confirm:\n1. Has his referral been recorded against my application?\n2. When does the referral bonus pay out?\n\nI just want to make sure Tobi gets credit. He speaks very highly of the team!\n\nBest,\nOluwaseun"
+  },
+  {
+    "id": "msg_027",
+    "from_name": "Rachel Foster",
+    "from_email": "rachel.foster.bio@gmail.com",
+    "received_at": "2024-11-13T11:30:00Z",
+    "subject": "Offer accepted - when do I sign?",
+    "body": "Hi! I verbally accepted the offer on the call with James yesterday. When will I receive the formal offer letter to sign? I want to give notice to my current employer as soon as I have the paperwork.\n\nAlso, would it be possible to negotiate a start date of January 6th instead of December 30th?\n\nThanks!"
+  },
+  {
+    "id": "msg_028",
+    "from_name": "Victor Osei",
+    "from_email": "v.osei.tech@gmail.com",
+    "received_at": "2024-11-13T13:00:00Z",
+    "subject": "k",
+    "body": "k"
+  },
+  {
+    "id": "msg_029",
+    "from_name": "Anjali Singh",
+    "from_email": "anjali.singh.pm@gmail.com",
+    "received_at": "2024-11-13T14:00:00Z",
+    "subject": "Salary negotiation and start date + visa question",
+    "body": "Hi,\n\nThank you for the offer! I have several things I'd like to discuss:\n\n1. The base salary of $110,000 — I was hoping for closer to $125,000 based on market data and my experience leading teams of 15+.\n2. I'll need an O-1 visa sponsored, which my current employer also does. This is non-negotiable for me.\n3. Can we discuss a signing bonus to offset my unvested equity at my current job?\n4. I need a start date after December 20th to give 4 weeks notice.\n\nI'm excited about the role and hope we can make this work!\n\nBest,\nAnjali"
+  },
+  {
+    "id": "msg_030",
+    "from_name": "Chris Nowak",
+    "from_email": "chris.nowak.dev@gmail.com",
+    "received_at": "2024-11-13T15:30:00Z",
+    "subject": "Any update?",
+    "body": "Hi, any update on the application? Thanks"
+  }
+]
