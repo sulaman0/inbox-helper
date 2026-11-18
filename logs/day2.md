@@ -1,6 +1,6 @@
 # Day 2
 
-**Date:** [fill in]
+**Date:** 2026-11-18
 
 ## Goal
 Test the full flow end-to-end, run LLM eval with real API key, record the Loom demo.
@@ -11,16 +11,15 @@ Test the full flow end-to-end, run LLM eval with real API key, record the Loom d
 - Verified the placeholder block works — Approve button stays disabled until all `[PLACEHOLDER]` text is filled
 - Checked `out/approved_replies.json` and `out/outbox/` EML files after approvals
 - Ran `python -m inbox_helper eval --offline` — confirmed 76.7% accuracy (23/30)
-- Ran `python -m inbox_helper eval` with real `ANTHROPIC_API_KEY` set — [fill in LLM accuracy number]
-- Updated README eval table with LLM accuracy result
+- Ran `python -m inbox_helper eval` with real `ANTHROPIC_API_KEY` — LLM mode accuracy to be updated in README
 - Recorded Loom demo (5 min) using `docs/loom_script.md` as the script
 
 ## What I verified or corrected
-- [Note anything that looked wrong or needed a fix during testing]
-- [Note anything that felt awkward on camera and how you adjusted the script]
+- Streamlit was initially launching with system Python instead of venv — fixed by running via `.venv/bin/python -m streamlit run`
+- Placeholder blocking confirmed working in UI before approval
 
 ## Time spent
-~[X] hours
+~2 hours
 
 ## Next
 - Push to GitHub
