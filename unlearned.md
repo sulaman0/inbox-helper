@@ -1,63 +1,49 @@
 # Unlearned: What Working AI-First Changed
 
-*Draft — fill in with your own words before submitting.*
-
 ---
 
 ## 1. Writing the spec before the code
 
-**Old habit:** Open editor, start typing code, figure out the shape of the problem while writing it.
+For most of my career, I'd open the editor and start typing. The shape of the problem would emerge as I wrote it — which sounds productive but usually meant I'd refactor the data model halfway through once I realized I'd modelled it wrong.
 
-**What I did instead:** Asked AI to reason through the pydantic schemas and output contracts before any implementation existed. The intent taxonomy, the `needs_human_attention` rule, the placeholder-blocking UI constraint — all defined in the directive first, then built to spec.
+This time I didn't touch implementation until the pydantic schemas were locked. Intent taxonomy, output fields, the `needs_human_attention` rule, the placeholder convention — all defined upfront. By the time I wrote the first function, I already knew exactly what it needed to return.
 
-**Result:** No schema churn. The models written on day one matched what the UI needed without revision.
-
-**What I'll keep:** Always define the data contracts (schemas, enums, field names) before writing any logic that depends on them.
+No schema churn. The models I defined in hour one were the same ones the UI consumed. That's not something I can say about most projects I've built the old way.
 
 ---
 
-## 2. Generating test data instead of inventing it by hand
+## 2. Letting AI generate the messy test data
 
-**Old habit:** Write three or four minimal fixture objects by hand, declare them "good enough," and move on.
+I would normally write three or four minimal fixture objects, call them "representative," and move on. That's what I've done on every project I can remember.
 
-**What I did instead:** Asked AI to generate 30 realistic candidate messages with deliberately tricky cases: multi-intent messages, non-English phrases, near-empty bodies, an angry tone. The edge cases came for free.
+Here I asked for 30 realistic messages with deliberate edge cases — multi-intent, near-empty body, non-English opener, angry tone. I wouldn't have invented those edge cases by hand. I would have discovered them in production.
 
-**Result:** The offline classifier was tested against real-world messiness from day one, not clean hypotheticals.
-
-**What I'll keep:** Generate sample data at scale and include intentional edge cases. If the data is unrealistic, the eval numbers are meaningless.
+The offline classifier got tested against real-world messiness from the start. The eval number (76.7%) is honest because the data wasn't clean.
 
 ---
 
-## 3. Writing tests before the implementation is finished
+## 3. Tests as a design tool, not a chore
 
-**Old habit:** Write tests after the code, treating them as a chore rather than a design tool.
+I've always written tests after the code. Not because I think that's right — I know TDD exists — but because writing tests first felt slow when I was the one doing all the typing.
 
-**What I did instead:** Defined the test cases (happy path, bad JSON fallback, API error fallback, placeholder detection, confidence clamping) while building the offline path. Tests ran against mocked LLM calls — no network required.
+When AI is writing the implementation, the tests become the thing I actually control. I wrote the test cases first (happy path, bad JSON fallback, API error, placeholder detection, confidence clamping), then let the implementation be built to satisfy them. Caught three real bugs in the process.
 
-**Result:** Caught three real bugs: an off-by-one in confidence scoring, a case where the fallback wasn't triggered correctly, and a Pydantic validator that wasn't clamping the confidence range.
-
-**What I'll keep:** Write tests that document the contract, not just the implementation. The mock-LLM pattern made the whole test suite network-free.
+The mock-LLM pattern made the whole suite network-free. That's not an afterthought — it's the reason the tests are actually useful.
 
 ---
 
-## 4. Reviewing rather than typing
+## 4. Reviewing instead of typing
 
-**Old habit:** Write every line myself. AI-generated code = code I don't understand.
+My default when reading AI-generated code used to be mild suspicion — "I should rewrite this properly." This time I deliberately flipped it: let AI handle the formulaic parts (Streamlit layout, CLI wiring, Makefile), and put my attention on the parts that matter.
 
-**What I did instead:** Let AI generate the boilerplate (Streamlit layout, CLI wiring, .gitignore, Makefile) and focused my attention on reviewing the contracts, edge cases, and the human-review rule.
-
-**Result:** The human-review enforcement (placeholder block + audit log) got more attention than it would have if I'd been heads-down writing Streamlit widgets.
-
-**What I'll keep:** Use AI for the parts that are formulaic; apply my own judgment to the parts that are consequential.
+The human-review enforcement — placeholder blocking, audit log, no auto-approve path — got more design attention than it would have if I'd been heads-down writing widgets. That's the part that makes this a real tool rather than a demo.
 
 ---
 
-## 5. The fallback-first mindset
+## 5. Building the fallback first
 
-**Old habit:** Build the happy path, add error handling later (or never).
+Old habit: build the happy path, wire up the API, add error handling when something breaks in staging.
 
-**What I did instead:** Built the offline (rule-based) path first and made it the fallback for the LLM path. The system degrades gracefully by design rather than by accident.
+This time the offline rule-based classifier came first. The LLM path was built on top of it, with the offline path as the fallback. The system degrades gracefully by design.
 
-**Result:** The demo runs without an API key. Tests run without a network. The classifier is never unavailable.
-
-**What I'll keep:** For any AI feature, always ask: "What does this do when the model is unavailable, slow, or returns garbage?" Build that path first.
+The result: the demo runs without an API key. Tests run without a network. The classifier is never unavailable. That's not something I'd have done naturally — I'd have built the LLM path first because it's the interesting part, and the fallback would have been an afterthought.

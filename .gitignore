@@ -4,6 +4,9 @@
 # Output (not part of source)
 out/
 
+# Internal docs (Loom scripts, career notes)
+docs/
+
 # Python
 __pycache__/
 *.py[cod]
